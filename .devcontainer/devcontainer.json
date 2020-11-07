@@ -7,7 +7,7 @@
     
     "remoteEnv": {
         "REMOTE_PATH": "${localEnv:PATH}",
-        "REMOTE_USER": "${localEnv:USER}",
-        "REMOTE_HOME": "${localEnv:HOME}"
+        "REMOTE_TO_CONTAINER_PATH": "${containerEnv:PATH}",
+        "REMOTE_TO_CONTAINER_PATH_BLOCK": "${containerEnv:CONTAINER_PATH}"
     }
 }
