@@ -12,6 +12,8 @@
         "REMOTE_TO_CONTAINER_PATH": "${containerEnv:PATH}",
         "REMOTE_TO_CONTAINER_PATH_BLOCK": "${containerEnv:CONTAINER_PATH}",
         "REMOTE_CONTAINER_HOSTNAME": "${containerEnv:HOSTNAME}",
-        "REMOTE_CONTAINER_TERM": "${containerEnv:TERM}"
+        "REMOTE_CONTAINER_TERM": "${containerEnv:TERM}",
+        "REMOTE_CLOUDENV_ENVIRONMENT_ID": "${containerEnv:CLOUDENV_ENVIRONMENT_ID}",
+        "REMOTE_CLOUDENV_SERVICE_ENPOINT": "${containerEnv:CLOUDENV_SERVICE_ENDPOINT}"
     }
 }
