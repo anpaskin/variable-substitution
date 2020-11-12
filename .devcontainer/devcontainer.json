@@ -14,6 +14,7 @@
         "REMOTE_CONTAINER_HOSTNAME": "${containerEnv:HOSTNAME}",
         "REMOTE_CONTAINER_TERM": "${containerEnv:TERM}",
         "REMOTE_CLOUDENV_ENVIRONMENT_ID": "${containerEnv:CLOUDENV_ENVIRONMENT_ID}",
-        "REMOTE_CLOUDENV_SERVICE_ENPOINT": "${containerEnv:CLOUDENV_SERVICE_ENDPOINT}"
+        "REMOTE_CLOUDENV_SERVICE_ENPOINT": "${containerEnv:CLOUDENV_SERVICE_ENDPOINT}",
+        "REMOTE_PAT": "${containerEnv:GIT_PAT}"
     }
 }
