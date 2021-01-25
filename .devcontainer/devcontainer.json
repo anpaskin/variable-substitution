@@ -18,5 +18,5 @@
         "REMOTE_PAT": "${containerEnv:GIT_PAT}"
     },
         
-    "postCreateCommand": "echo $CONTAINER_PATH"
+    "postCreateCommand": "mkdir ~/CEDev"
 }
